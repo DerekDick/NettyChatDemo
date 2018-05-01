@@ -18,7 +18,8 @@ chatClient.setOnMessageReceivedListener(new OnMessageReceivedListener() {
 
     @Override
     public void onMessageReceived(String message) {
-        System.out.println("Message received: \"" + message + "\".");     }
+        System.out.println("Message received: \"" + message + "\".");
+    }
 
 });
 chatClient.start();
